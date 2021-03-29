@@ -1,0 +1,27 @@
+a:hover{
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+  padding-inline-start: 0px;
+  margin-bottom: 0px;
+}
+img{
+  max-width: 100%;
+  height: auto;
+}
+.btn:focus, .btn.focus {
+  box-shadow:0 0 0 0;
+}
+button:focus{
+  outline: none;
+}
+p{
+  margin-bottom: 0rem;
+}
+select:focus{
+  outline: none;
+}
+.material-icons{
+  vertical-align: bottom;
+}

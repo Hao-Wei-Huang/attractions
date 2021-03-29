@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+  <link rel="stylesheet" href="./css/all.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="banner d-flex justify-content-center align-items-center position-relative">
+    <div>
+      <h1 class="text-white mb-7 text-center">高雄旅遊資訊</h1>
+      <select class="town-select h5 bg-white-transparent pl-2 py-2" id="townSelect">
+        <option value="" disabled selected>--請選擇行政區--</option>
+      </select>
+      <div class="hot-towns rounded rounded-lg bg-white px-4 py-3 bg-shadow">
+        <h2 class="h5 mb-3">熱門行政區</h2>
+        <ul class="d-flex h5">
+          <li class="ml-3"><a href="#" class="d-block py-2 px-4 rounded rounded-lg bg-primary text-white" data-area="苓雅區">苓雅區</a></li>
+          <li class="ml-3"><a href="#" class="d-block py-2 px-4 rounded rounded-lg bg-secondary text-white" data-area="三民區">三民區</a></li>
+          <li class="ml-3"><a href="#" class="d-block py-2 px-4 rounded rounded-lg bg-warning text-white" data-area="新興區">新興區</a></li>
+          <li class="ml-3"><a href="#" class="d-block py-2 px-4 rounded rounded-lg bg-info text-white" data-area="鹽埕區">鹽埕區</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="container pt-7 py-5">
+    <section class="attraction-wrap position-relative pt-6">
+      <a href="#" class="sroll-top">
+        <img src="./images/btn_goTop.png" alt="image loading">
+      </a>
+      <span class="material-icons arrow-down text-info">
+        arrow_drop_down
+      </span>
+      <h2 id="attractionArea" class="h1 text-center text-primary mb-4">全部高雄市區</h2>
+      <ul id="attractionList" class="row">
+      </ul>
+      <ul id="pagination" class="pagination d-flex justify-content-center">
+        <li class="page-item">
+          <a class="page-link" href="#" aria-label="Previous">
+            <span aria-hidden="true">&laquo;</span>
+          </a>
+        </li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item">
+          <a class="page-link" href="#" aria-label="Next">
+            <span aria-hidden="true">&raquo;</span>
+          </a>
+        </li>
+      </ul>
+    </section>
+  </div>
+  <footer class="bg-info py-4">
+    <div class="container">
+      <ul class="text-center">
+        <li class="mb-3"><a href="#" class="d-block text-white">高雄旅遊網</a></li>
+        <li><a href="#" class="d-block text-warning">資料來源：高雄市政府 </a></li>
+      </ul>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="./js/all.js"></script>
+</body>
+</html>

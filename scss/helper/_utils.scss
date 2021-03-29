@@ -1,0 +1,17 @@
+.bg-white-transparent{
+  background-color: rgba($color: #ffffff, $alpha: 0.7);
+}
+.bg-dark-transparent{
+  background-image: linear-gradient(-180deg, rgba(0,0,0,0.00) 0%, rgba(0,0,0,0.54) 100%);
+}
+.bg-shadow{
+  box-shadow: 0px 3px 6px #00000029;
+}
+.bg-cover{
+  background-size: cover;
+  background-position: center center;
+}
+.image-size-sm{
+  width: 20px;
+  height: 20px;
+}

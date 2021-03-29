@@ -1,0 +1,44 @@
+.banner{
+  background-image: url('../images/the-urban-landscape-1698285.png');
+  height: 380px;
+  background-size: cover;
+  background-position: center top;
+}
+.town-select{
+  width: 452px;
+  border: 3px solid #FFFFFF;
+  border-radius: 3px;
+}
+.hot-towns{
+  width: 800px;
+  position: absolute;
+  bottom: -70px;
+  left: calc(50% - 400px);
+}
+.attraction-wrap{
+  &::before{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    right: 20px;
+    border-top: 1px dashed #559AC8;
+  }
+  .arrow-down{
+    position: absolute;
+    top: -12px;
+    left: calc(50% - 12px);
+    border-radius: 50%;
+    border: 1px solid #559AC8;
+  }
+}
+.bg-image-size-m{
+  height: 155px;
+}
+.sroll-top{
+  position: fixed;
+  bottom:120px;
+  right: 200px;
+  z-index: 30;
+}
